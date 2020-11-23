@@ -1,5 +1,5 @@
 from unittest import TestCase
-from .jenkins.tutorial2 import Xiaomi
+from tutorial2 import Xiaomi
 
 class TestXiaomi(TestCase):
 

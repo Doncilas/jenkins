@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testint..'
+                sh 'pytest tests/'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                sh 'python3 tutorial.py'
             }
         }
     }

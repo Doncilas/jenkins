@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'GATAAAAAAAAAAAAAAAAAAAAAA'
+                sh 'pytest tests/'
             }
         }
     }

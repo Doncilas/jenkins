@@ -1,5 +1,5 @@
 from unittest import TestCase
-from .jenkins.tutorial import FLaskOpen
+from tutorial import FLaskOpen
 
 class TestFlaskOpen(TestCase):
 

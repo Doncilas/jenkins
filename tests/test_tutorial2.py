@@ -1,5 +1,5 @@
 from unittest import TestCase
-from tutorial2 import Xiaomi
+from .tests.tutorial2 import Xiaomi
 
 class TestXiaomi(TestCase):
 

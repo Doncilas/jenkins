@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'python3 tutorial.py'
+                echo 'GATAAAAAAAAAAAAAAAAAAAAAA'
             }
         }
     }

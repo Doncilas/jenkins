@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'pytest tests/'
+                sh 'python3 tutorial.py'
             }
         }
     }

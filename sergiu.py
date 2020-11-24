@@ -1,4 +1,4 @@
-class SergiuOpen():
+class SergiuOpen:
     def __init__:
         pass
 

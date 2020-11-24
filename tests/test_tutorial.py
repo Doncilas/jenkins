@@ -9,3 +9,4 @@ class TestFlaskOpen(TestCase):
 
     def test_suma_zarurilor(self):
         theflask = FLaskOpen()
+        print('hau')

@@ -8,4 +8,4 @@ class TestSergiuOpen(TestCase):
 
 
     def test_sergiu_open(self):
-        theflask = SergiuOpen()
+        theflask = SergiuOpen(

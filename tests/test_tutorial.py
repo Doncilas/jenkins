@@ -1,5 +1,5 @@
 from unittest import TestCase
-from ..tutorial import FLaskOpen
+from tutorial import FLaskOpen
 
 class TestFlaskOpen(TestCase):
 

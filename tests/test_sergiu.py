@@ -1,5 +1,5 @@
 from unittest import TestCase
-from ..sergiu import SergiuOpen
+from sergiu import SergiuOpen
 
 class TestSergiuOpen(TestCase):
 

@@ -1,5 +1,5 @@
 from unittest import TestCase
-from ..fortzini import FoFortzini
+from fortzini import FoFortzini
 
 class TestFoFortzini(TestCase):
 
